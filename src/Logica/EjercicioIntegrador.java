@@ -6,6 +6,8 @@ public class EjercicioIntegrador {
 
         System.out.println("Bienvenidos al mundo Pokémon");
 
+        System.out.println("------------------");
+
         Charmander charmander = new Charmander();
         Bulbasaur bulbasaur = new Bulbasaur();
         Squirtle squirtle = new Squirtle();
@@ -19,6 +21,10 @@ public class EjercicioIntegrador {
         squirtle.atacarHidrobomba();
         pikachu.atacarArañazo();
         pikachu.atacarImpactrueno();
+
+        System.out.println("---------------");
+
+        System.out.println("Gracias por visitar");
 
     }
 }
